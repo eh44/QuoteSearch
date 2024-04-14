@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search-bar{
+   display: flex;
+   border-radius: 5px;
+   border:.5px solid black;
+   justify-content: center;
+   flex-direction: row;
+}
+.search-button{
+    border-radius:5px;
+    background-color: white;
+    border:0px;
+}
+.random{
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    font-family:cursive;
+    font:30px;
+}
+.quote {
+    margin-top:5px;
+    width:100%; 
+    border-radius:5px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: lightblue; 
+    border: 1px solid black;
+
+} 
+
+.pinnedQuote{ 
+
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: darkblue; 
+
+} 
+
+
+@media screen and (min-width: 800px) { 
+body{
+    justify-content: right;  
+} 
+
+} 
